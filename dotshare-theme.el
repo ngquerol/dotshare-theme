@@ -21,7 +21,7 @@
 
 ;;; Installation:
 ;;
-;; Drop the theme in a folder that is in `custom-theme-load-path', do a 
+;; Drop the theme in a folder that is in `custom-theme-load-path', do a
 ;; simple 'M-x load-theme dotshare' and enjoy!
 ;;
 ;; Don't forget that the theme requires Emacs 24.
@@ -247,7 +247,7 @@
    `(ido-first-match ((,class (:foreground ,dotshare-green+3 :weight bold))))
    `(ido-only-match ((,class (:foreground ,dotshare-green+3 :weight bold))))
    `(ido-subdir ((,class (:foreground ,dotshare-fg))))
-   
+
    ;; magit
    `(magit-section-title ((,class (:foreground ,dotshare-yellow :weight bold))))
    `(magit-branch ((,class (:foreground ,dotshare-orange :weight bold))))
@@ -394,7 +394,7 @@
    `(speedbar-selected-face ((,class (:background ,dotshare-bg+1))))
    `(speedbar-separator-face ((,class (:foreground ,dotshare-bg+1))))
    `(speedbar-tag-face ((,class (:foreground ,dotshare-yellow))))
-   
+
    ;; tabbar
    `(tabbar-default ((,class (:foreground ,dotshare-fg :background ,dotshare-bg+1 :box (:line-width 1 :color ,dotshare-bg+1)))))
    `(tabbar-highlight ((,class (:foreground ,dotshare-fg))))
