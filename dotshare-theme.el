@@ -169,7 +169,7 @@
    `(erc-nick-msg-face ((,class (:inherit erc-default))))
    `(erc-notice-face ((,class (:foreground ,dotshare-green))))
    `(erc-pal-face ((,class (:foreground ,dotshare-orange :weight bold))))
-   `(erc-prompt-face ((,class (:foreground ,dotshare-orange :weight bold))))
+   `(erc-prompt-face ((,class (:foreground ,dotshare-orange :background ,dotshare-bg :weight bold))))
    `(erc-timestamp-face ((,class (:foreground ,dotshare-green+1))))
    `(erc-underline-face ((t (:underline t))))
 
