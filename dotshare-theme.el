@@ -1,4 +1,4 @@
-;;; color-theme-dotshare.el --- A color theme for Emacs 24.
+;;; dotshare-theme.el --- A color theme for Emacs 24.
 
 ;; Based on color-theme-dotshare.el:
 ;; Author: Christian Brassat <crshd@mail.com>
