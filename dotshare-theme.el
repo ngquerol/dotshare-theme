@@ -437,12 +437,10 @@
   (custom-theme-set-variables
    'dotshare
 
-   `(ansi-color-names-vector
-     [,dotshare-bg ,dotshare-red ,dotshare-green ,dotshare-yellow
-		   ,dotshare-blue ,dotshare-magenta ,dotshare-cyan ,dotshare-fg])
-   `(ansi-term-color-vector
-     [unspecified ,dotshare-bg ,dotshare-red ,dotshare-green ,dotshare-yellow
-		  ,dotshare-blue ,dotshare-magenta ,dotshare-blue ,dotshare-fg])))
+   `(ansi-color-names-vector [,dotshare-bg ,dotshare-red ,dotshare-green ,dotshare-yellow
+					   ,dotshare-blue ,dotshare-magenta ,dotshare-cyan ,dotshare-fg])
+   `(ansi-term-color-vector [,dotshare-bg ,dotshare-red ,dotshare-green ,dotshare-yellow
+					  ,dotshare-blue ,dotshare-magenta ,dotshare-cyan ,dotshare-fg])))
 
 (provide-theme 'dotshare)
 
